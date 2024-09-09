@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         AWS_DEFAULT_REGION = 'us-east-2'
-        AWS_ACCOUNT_ID = '875851908797'
+        AWS_ACCOUNT_ID = ''
         ECR_REPO_NAME = 'node-app'
         IMAGE_TAG = "${env.BUILD_NUMBER}"
         ECS_CLUSTER_NAME = 'nodejs-app'
